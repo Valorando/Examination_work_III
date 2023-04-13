@@ -628,5 +628,8 @@ public:
 
 int main()
 {
-	
+	PrivatBank privat;
+	privat.Bank_system();
+	privat.Entry_data();
+	privat.Card_system();
 }
