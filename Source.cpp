@@ -179,6 +179,90 @@ public:
 		}
 
 	}
+
+	void Entry_data()
+	{
+		string path_name = "name.txt";
+		ofstream name_data;
+		name_data.open(path_name);
+		if (name_data.is_open())
+		{
+			name_data << "Name: " << name << endl;
+		}
+		name_data.close();
+
+		string path_surname = "suranme.txt";
+		ofstream surname_data;
+		surname_data.open(path_surname);
+		if (surname_data.is_open())
+		{
+			surname_data << "Surname: " << surname << endl;
+		}
+		surname_data.close();
+
+		string path_patr = "patr.txt";
+		ofstream patr_data;
+		patr_data.open(path_patr);
+		if (patr_data.is_open())
+		{
+			patr_data << "Patronymic: " << patr << endl;
+		}
+		patr_data.close();
+
+		string path_day = "day.txt";
+		ofstream day_data;
+		day_data.open(path_day);
+		if (day_data.is_open())
+		{
+			day_data << "Day of birth: " << day << endl;
+		}
+		day_data.close();
+
+		string path_mounth = "mounth.txt";
+		ofstream mounth_data;
+		mounth_data.open(path_mounth);
+		if (mounth_data.is_open())
+		{
+			mounth_data << "Mounth of birth: " << mounth << endl;
+		}
+		mounth_data.close();
+
+		string path_year = "year.txt";
+		ofstream year_data;
+		year_data.open(path_year);
+		if (year_data.is_open())
+		{
+			year_data << "Year of birth: " << year << endl;
+		}
+		year_data.close();
+
+		string path_passport = "passport.txt";
+		ofstream passport_data;
+		day_data.open(path_passport);
+		if (passport_data.is_open())
+		{
+			passport_data << "Passport number: " << passport_number << endl;
+		}
+		passport_data.close();
+
+		string path_phone = "phone.txt";
+		ofstream phone_data;
+		phone_data.open(path_phone);
+		if (phone_data.is_open())
+		{
+			phone_data << "Phone number: " << phone_number << endl;
+		}
+		phone_data.close();
+
+		string path_card = "card.txt";
+		ofstream card_data;
+		card_data.open(path_card);
+		if (card_data.is_open())
+		{
+			card_data << "Password of the card: " << password_card << endl;
+		}
+		card_data.close();
+	}
 };
 
 
