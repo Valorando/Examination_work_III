@@ -41,6 +41,23 @@ public:
 	float card_balance;
 	float balance;
 	float money;
+
+	PrivatBank()
+	{
+		name = "Undefined";
+		surname = "Undefined";
+		patr = "Undefined";
+		day = 0;
+		mounth = 0;
+		year = 0;
+		phone_number = "Undefined";
+		passport_number = "Undefined";
+		password_card = "Undefined";
+		card_balance = 0.0;
+		balance = 0.0;
+		money = 0.0;
+
+	}
 };
 
 
