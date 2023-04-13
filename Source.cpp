@@ -23,7 +23,24 @@ using namespace std;
 class PrivatBank
 {
 public:
-	
+	int key_one;
+	int key_two;
+	int key_three;
+	int key_four;
+
+	string name;
+	string surname;
+	string patr;
+	int day;
+	int mounth;
+	int year;
+	string phone_number;
+	string passport_number;
+	string password_card;
+
+	float card_balance;
+	float balance;
+	float money;
 };
 
 
